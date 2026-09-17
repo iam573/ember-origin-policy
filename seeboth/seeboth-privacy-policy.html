@@ -39,7 +39,7 @@
     <article>
       <section lang="zh-CN">
         <h1>SeeBoth 隐私政策</h1>
-        <p class="date">生效日期：2026 年 9 月 5 日</p>
+        <p class="date">生效日期：2026 年 9 月 17 日</p>
 
         <div class="summary">
           SeeBoth 是一款前后双摄相机应用。App Store 发布版本不要求创建账号，不包含广告或第三方分析工具，也不使用开发者自有服务器存储用户数据。你的照片和视频保存在设备及你选择的系统照片图库中。
@@ -49,18 +49,17 @@
         <p>本政策适用于从 App Store 提供的 SeeBoth 1.0 及其后续公开版本。本政策所称“收集”是指开发者或开发者控制的系统从设备获取并可在设备之外继续访问相关数据。</p>
 
         <h2 id="face-data-zh">2. 人脸数据</h2>
-        <p><strong>SeeBoth 1.0 的 App Store 发布版本不执行人脸检测或人脸识别，也不会从相机画面、照片或视频中收集、生成或使用任何人脸专属数据。</strong></p>
-        <p>发布版本不使用 TrueDepth 数据、Face ID 数据、人脸关键点、面部几何、人脸模板、面部特征向量或其他生物识别标识。用户主动拍摄或在系统照片图库中浏览的照片和视频只作为媒体内容处理；即使媒体中包含人物面部，SeeBoth 也不会为识别个人、分析面部或建立人脸档案而处理这些内容。</p>
+        <p><strong>SeeBoth 1.1 提供可选的“人像跟随”功能。仅当你在“实验室”中主动开启该功能时，应用才会使用 Apple Vision 在设备端实时检测相机画面中人脸的大致位置和范围，用于自动调整构图和画面裁切。</strong></p>
+        <p>该功能只检测人脸边界矩形，不识别或验证个人身份，不使用 TrueDepth 数据、Face ID 数据、人脸关键点、面部几何、人脸模板、面部特征向量或其他生物识别标识。用户主动拍摄或在系统照片图库中浏览的照片和视频仍只作为媒体内容处理；SeeBoth 不会用它们识别个人或建立人脸档案。</p>
         <ul>
-          <li><strong>收集与使用：</strong>不收集、不生成且不使用人脸数据。</li>
-          <li><strong>共享与披露：</strong>不向开发者或任何第三方发送、出售、共享或披露人脸数据。</li>
-          <li><strong>存储：</strong>设备、本地应用容器、开发者服务器及第三方服务器均不存储人脸数据。</li>
-          <li><strong>保留：</strong>人脸数据的保留期限为零，因为应用不会收集或生成此类数据。</li>
-          <li><strong>删除：</strong>没有需要删除的人脸数据，因为应用不会创建或保留此类数据。用户仍可随时删除其照片或视频，详见第 6 节。</li>
+          <li><strong>本机使用：</strong>相机帧、检测到的人脸边界矩形和由此计算的构图坐标只在设备上处理。</li>
+          <li><strong>收集、共享与披露：</strong>不向开发者或任何第三方发送、出售、共享或披露相机帧或人脸检测结果。</li>
+          <li><strong>存储与保留：</strong>检测结果和构图坐标仅在功能运行时短暂存在于内存，不写入本地文件、照片元数据或任何服务器，并在关闭功能或结束会话时丢弃。</li>
+          <li><strong>删除：</strong>由于不持久保留人脸检测结果，没有需要申请删除的此类数据。你仍可随时删除照片或视频，详见第 6 节。</li>
         </ul>
 
         <h2 id="camera-zh">3. 相机与麦克风</h2>
-        <p>SeeBoth 仅在你使用取景、拍照、Live Photo 或视频录制功能时访问相机。录制带声音的视频时，应用也会访问麦克风。相机帧和录音仅用于生成你主动创建的照片、Live Photo 或视频，不会上传到开发者服务器。</p>
+        <p>SeeBoth 仅在你使用取景、拍照、Live Photo 或视频录制功能时访问相机。录制带声音的视频时，应用也会访问麦克风。相机帧和录音仅用于生成你主动创建的照片、Live Photo 或视频；开启“人像跟随”后，相机帧还会按第 2 节所述方式在本机用于实时构图。这些内容不会上传到开发者服务器。</p>
 
         <h2 id="photos-zh">4. 系统照片图库与媒体元数据</h2>
         <p>在你授权照片权限后，SeeBoth 可以将拍摄内容保存到系统照片图库，也可以展示图库中的近期照片和视频，供你查看、分享、收藏或删除。为显示图库信息，应用可能读取媒体缩略图或内容、创建日期、收藏状态以及照片中已有的位置元数据。</p>
@@ -88,7 +87,7 @@
 
       <section class="english" lang="en">
         <h1>SeeBoth Privacy Policy</h1>
-        <p class="date">Effective date: September 5, 2026</p>
+        <p class="date">Effective date: September 17, 2026</p>
 
         <div class="summary">
           SeeBoth is a dual-camera app. Its App Store release does not require an account, include advertising or third-party analytics, or use developer-operated servers to store user data. Your photos and videos remain on your device and in the system Photos library you choose to use.
@@ -98,18 +97,17 @@
         <p>This policy applies to SeeBoth 1.0 and later public versions distributed through the App Store. In this policy, “collect” means transmitting data off the device in a way that allows the developer or a developer-controlled system to access it beyond the time necessary to service a request.</p>
 
         <h2 id="face-data-en">2. Face Data</h2>
-        <p><strong>The App Store release of SeeBoth version 1.0 does not perform face detection or facial recognition and does not collect, derive, or use any face-specific data from camera frames, photos, or videos.</strong></p>
-        <p>The release build does not use TrueDepth data, Face ID data, facial landmarks, face geometry, facial templates, facial embeddings, or other biometric identifiers. Photos and videos captured or viewed by the user are handled only as media content. Even when media happens to contain a person's face, SeeBoth does not process it to identify an individual, analyze a face, or create a face profile.</p>
+        <p><strong>SeeBoth 1.1 offers an optional Face Follow feature. Only when you enable it in Labs does the app use Apple Vision on the device to detect the approximate position and bounds of faces in live camera frames, solely to adjust framing and cropping in real time.</strong></p>
+        <p>The feature detects face bounding rectangles only. It does not identify or authenticate anyone and does not use TrueDepth data, Face ID data, facial landmarks, face geometry, facial templates, facial embeddings, or other biometric identifiers. Photos and videos you capture or view in the system Photos library continue to be handled only as media content; SeeBoth does not use them to identify an individual or create a face profile.</p>
         <ul>
-          <li><strong>Collection and use:</strong> No face data is collected, derived, or used.</li>
-          <li><strong>Sharing and disclosure:</strong> No face data is sent, sold, shared, or disclosed to the developer or any third party.</li>
-          <li><strong>Storage:</strong> No face data is stored on the device, in the app's local container, on developer servers, or on third-party servers.</li>
-          <li><strong>Retention:</strong> The retention period for face data is zero because the app does not collect or derive it.</li>
-          <li><strong>Deletion:</strong> There is no face data to delete because the app does not create or retain it. Users may still delete their photos or videos at any time as described in Section 6.</li>
+          <li><strong>On-device use:</strong> Camera frames, detected face bounding rectangles, and the framing coordinates calculated from them are processed only on the device.</li>
+          <li><strong>Collection, sharing, and disclosure:</strong> Camera frames and face-detection results are not sent, sold, shared, or disclosed to the developer or any third party.</li>
+          <li><strong>Storage and retention:</strong> Detection results and framing coordinates exist briefly in memory while the feature operates. They are not written to local files, photo metadata, or any server and are discarded when the feature is turned off or the session ends.</li>
+          <li><strong>Deletion:</strong> Because face-detection results are not persistently retained, there is no such data for you to request deletion of. You may still delete your photos or videos at any time as described in Section 6.</li>
         </ul>
 
         <h2 id="camera-en">3. Camera and Microphone</h2>
-        <p>SeeBoth accesses the camera only when you use the viewfinder, photo, Live Photo, or video-recording features. It also accesses the microphone when recording video with sound. Camera frames and audio are used only to create the photos, Live Photos, or videos you intentionally capture and are not uploaded to developer servers.</p>
+        <p>SeeBoth accesses the camera only when you use the viewfinder, photo, Live Photo, or video-recording features. It also accesses the microphone when recording video with sound. Camera frames and audio are used only to create the photos, Live Photos, or videos you intentionally capture; when Face Follow is enabled, camera frames are also used on the device for real-time framing as described in Section 2. This content is not uploaded to developer servers.</p>
 
         <h2 id="photos-en">4. System Photos Library and Media Metadata</h2>
         <p>After you grant Photos permission, SeeBoth can save captures to the system Photos library and display recent photos and videos so that you can view, share, favorite, or delete them. To present library information, the app may read media thumbnails or content, creation dates, favorite status, and location metadata already attached to a photo.</p>
